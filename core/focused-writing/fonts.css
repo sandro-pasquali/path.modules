@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('/media/fonts/modules/focused-writing/icomoon.eot');
+	src:url('/media/fonts/modules/focused-writing/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('/media/fonts/modules/focused-writing/icomoon.woff') format('woff'),
+		url('/media/fonts/modules/focused-writing/icomoon.ttf') format('truetype'),
+		url('/media/fonts/modules/focused-writing/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-expand:before {
+	content: "\e000";
+}
+.icon-target:before {
+	content: "\e001";
+}
+.icon-contrast:before {
+	content: "\e002";
+}
+.icon-floppy:before {
+	content: "\e003";
+}
+.icon-contract:before {
+	content: "\e004";
+}
+.icon-link:before {
+	content: "\e005";
+}
+.icon-download-alt:before {
+	content: "\e006";
+}

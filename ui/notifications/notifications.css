@@ -1,0 +1,101 @@
+.module-ui-notifications {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.module-ui-notifications .notice {
+	position: relative;
+	width: 324px;
+	z-index: 15000;
+}
+
+.module-ui-notifications .notice .close {
+	position: absolute; 
+	top: 12px; 
+	right: 12px; 
+	display: block; 
+	width: 18px; 
+	height: 17px; 
+	text-indent: -9999px; 
+	background: url(/media/modules/ui/notifications/purrClose.png) 
+	no-repeat 0 10px;
+}
+
+.module-ui-notifications .notice-body {
+	min-height: 50px;
+	padding: 22px 22px 0 22px;
+	background: url(/media/modules/ui/notifications/purrTop.png) no-repeat left top;
+	color: #f9f9f9;
+}
+
+.module-ui-notifications .notice-body img {
+	width: 50px; 
+	margin: 0 10px 0 0; 
+	float: left;
+}
+
+.module-ui-notifications .notice-body h3	{
+	font-size: 1.2em;
+}
+
+.module-ui-notifications .notice-body p {
+	margin: 5px 0 0 20px; 
+	font-size: 1.0em; 
+	line-height: 1.4em;
+}
+
+.module-ui-notifications .notice-bottom {
+	height: 22px;
+	background: url(/media/modules/ui/notifications/purrBottom.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon {
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+
+.module-ui-notifications .notice-icon-info {
+	background: url(/media/modules/ui/notifications/notice-info.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-announce {
+	background: url(/media/modules/ui/notifications/notice-announce.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-saving {
+	background: url(/media/modules/ui/notifications/notice-saving.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-uploading {
+	background: url(/media/modules/ui/notifications/notice-uploading.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-error {
+	background: url(/media/modules/ui/notifications/notice-error.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-help {
+	background: url(/media/modules/ui/notifications/notice-help.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-deleting {
+	background: url(/media/modules/ui/notifications/notice-deleting.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-loading {
+	background: url(/media/modules/ui/notifications/notice-loading.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-alert {
+	background: url(/media/modules/ui/notifications/notice-alert.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-note {
+	background: url(/media/modules/ui/notifications/notice-note.png) no-repeat left top;
+}
+
+.module-ui-notifications .notice-icon-publishing {
+	background: url(/media/modules/ui/notifications/notice-publishing.png) no-repeat left top;
+}

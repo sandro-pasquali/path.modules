@@ -1,0 +1,30 @@
+.affix {
+	position: fixed;
+}
+
+.affix ul {
+	list-style-type: none;
+	
+}
+
+.affix li ul {
+	list-style-type: none;
+	display: none;
+}
+
+.affix ul li a {
+	display: block;
+	padding: 5px;
+}
+
+.affix li ul {
+	display: none;
+}
+
+.affix li.active > a {
+	border-right: #e54339 1px solid;
+}
+
+.affix li.active > ul {
+	display: block;
+}

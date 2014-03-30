@@ -1,0 +1,22 @@
+
+<input type="text" data-binding="form.something.0" />
+
+<textarea data-binding="form.something.0"></textarea>
+
+<input type="text" data-binding="another.node" />
+
+<a href="" data-action="click/activator.^">click me</a>
+
+<div id="echo" data-binding="testdata" data-template="echo-template"></div>
+
+<script type="text/path" class="echo-template">
+
+	{{= binding.data }} <<--binding
+
+	<select data-action="change/demo/select" data-binding="form.something.1">
+		<option value="one">1</option>
+		<option value="two">2</option>
+	</select>
+
+</script>
+
